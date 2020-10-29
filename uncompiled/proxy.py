@@ -64,13 +64,6 @@ class Client:
 
     """
 
-    def __init__(self):
-        """
-        Initialize client object
-
-        """
-        pass
-
     @staticmethod
     def some_client_code(subject: Proxy):
         """
