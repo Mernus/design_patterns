@@ -64,7 +64,7 @@ class IterableCollection(Iterable):
         self._collection.append(item)
 
 
-if __name__ == "__main__":
+def main():
     collection = IterableCollection()
     collection.push("Red")
     collection.push("Orange")
@@ -76,3 +76,7 @@ if __name__ == "__main__":
     reversed_collection = reversed(collection)
     print("Reversed order: {")
     print("\n".join(reversed_collection), end="\n}\n")
+
+
+if __name__ == "__main__":
+    main()

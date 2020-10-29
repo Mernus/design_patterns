@@ -57,7 +57,7 @@ def singleton_usage() -> datetime:
     return singleton.some_logic_implementation()
 
 
-if __name__ == "__main__":
+def main():
     results = Queue(maxsize=2)  # Results of functions in threads
 
     # Initialize threads
@@ -78,3 +78,7 @@ if __name__ == "__main__":
         assert first == second, "Error: Multiple singletons were created"
     else:
         print("Error: Bad implementation of Singleton")
+
+
+if __name__ == "__main__":
+    main()
