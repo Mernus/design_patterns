@@ -11,10 +11,10 @@ git clone git@github.com:Mernus/design_patterns.git
 
 ## Executing examples
 
-In project directory you can find compiled versions of design patterns files
+In the project directory, you can find compiled versions of design patterns files
 (files *.pyc)
 
-To execute this files and see the output of design patterns examples you need to print in console
+To execute these files and see the output of design patterns examples, you need to print in the console.
 
 ```bash
 python file.pyc
@@ -26,5 +26,5 @@ py file.pyc
 
 ## Sources
 
-Also you can see uncompiled files in directory with corresponding name('uncompiled')
-Names of uncompiled files is the same to compiled.
+Also, you can see uncompiled files in a directory with the corresponding name('uncompiled')
+Names of uncompiled files are the same as compiled.
