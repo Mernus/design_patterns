@@ -8,7 +8,7 @@ class AbstractImplementation(ABC):
     """
 
     @abstractmethod
-    def some_operation(self) -> str:
+    def some_logic_implementation(self) -> str:
         pass
 
 
@@ -22,7 +22,7 @@ class Abstraction:
         self._delegate = delegate
 
     def delegate_operation(self) -> str:
-        return f"Abstraction: With {self._delegate.some_operation()}"
+        return f"Abstraction: With {self._delegate.some_logic_implementation()}"
 
 
 class FirstImplementation(AbstractImplementation):
@@ -31,7 +31,7 @@ class FirstImplementation(AbstractImplementation):
 
     """
 
-    def some_operation(self) -> str:
+    def some_logic_implementation(self) -> str:
         return "FirstImplementation"
 
 
@@ -41,7 +41,7 @@ class SecondImplementation(AbstractImplementation):
 
     """
 
-    def some_operation(self) -> str:
+    def some_logic_implementation(self) -> str:
         return "SecondImplementation"
 
 
