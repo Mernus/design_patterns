@@ -55,6 +55,7 @@ class Client:
     def some_client_code(abstraction: Abstraction):
         """
         Links some abstraction and implementation
+
         :param abstraction:
         """
 
