@@ -28,5 +28,3 @@ py file.pyc
 
 Also, you can see uncompiled files in a directory with the corresponding name('uncompiled')
 Names of uncompiled files are the same as compiled.
-
-@Made by Denis Agaev
